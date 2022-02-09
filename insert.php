@@ -53,11 +53,11 @@
                 <form action="<?php
                     if($user_id)
                     {
-                        echo 'student_manage.php?edit_id='.$user_id;
+                        echo 'manage.php?edit_id='.$user_id;
                       }
                       else
                       {
-                        echo 'student_manage.php';
+                        echo 'manage.php';
                       }
                 ?>" 
                 method="POST">

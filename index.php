@@ -61,7 +61,7 @@
                   <a href="insert.php?uid=<?=$total['id']?>" 
                   class="btn btn-warning edituser">Edit</a>
                   
-                  <a href="student_manage.php?id=<?=$total['id']?>" 
+                  <a href="manage.php?id=<?=$total['id']?>" 
                   class="btn btn-danger Deleteuser"
                   onclick="return confirm('Do you want to delete ?')"
                   >Delete</a>

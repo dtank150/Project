@@ -48,7 +48,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-            <div class="container"><h1 class="text-center text-primary"><B>Registration</B></h1></div>
+            <div class="container"><h1 class="text-center text-primary"><B>Data</B></h1></div>
               <div class="col-lg-8 mx-auto d-block">
                 <form action="<?php
                     if($user_id)

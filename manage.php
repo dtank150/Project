@@ -1,13 +1,5 @@
 <?php
-	/**************************Connection********************************/
-	
-	$connection=new mysqli("localhost","root","","movies");
-	if($connection->connect_errno)
-	{
-		echo $connection->connect_error;
-		exit;
-	}
-
+	include 'connection.php';
 	$id=isset($_GET['id'])?$_GET['id']:"";
 	$edit_id = isset($_GET['edit_id'])?$_GET['edit_id']:"";
 
